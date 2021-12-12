@@ -1,0 +1,51 @@
+{
+  "AllEnemy":[
+    {
+      "enemyType": "Witch",
+      "enemySpawnPosition": "RightUpEnemySpawnPosition"
+    },
+    {
+      "enemyType": "SmallSlime",
+      "enemySpawnPosition": "RightEnemySpawnPosition"
+    },
+    {
+      "enemyType": "MediumSlime",
+      "enemySpawnPosition": "LeftEnemySpawnPosition"
+    },
+    {
+      "enemyType": "SmallSlime",
+      "enemySpawnPosition": "RightEnemySpawnPosition"
+    },
+    {
+      "enemyType": "MediumSlime",
+      "enemySpawnPosition": "LeftEnemySpawnPosition"
+    },
+    {
+      "enemyType": "SmallSlime",
+      "enemySpawnPosition": "RightEnemySpawnPosition"
+    },
+    {
+      "enemyType": "SmallSlime",
+      "enemySpawnPosition": "LeftEnemySpawnPosition"
+    },
+    {
+      "enemyType": "MediumSlime",
+      "enemySpawnPosition": "LeftEnemySpawnPosition"
+    },
+    {
+      "enemyType": "SmallSlime",
+      "enemySpawnPosition": "RightEnemySpawnPosition"
+    },
+    {
+      "enemyType": "MediumSlime",
+      "enemySpawnPosition": "LeftEnemySpawnPosition"
+    },
+    {
+      "enemyType": "SmallSlime",
+      "enemySpawnPosition": "RightEnemySpawnPosition"
+    }
+  ],
+  "LevelTimeData": {
+    "enemySpawnTimer" : 3,
+    "enemySpeed" : 4}
+}

@@ -1,0 +1,41 @@
+{
+  "AllEnemy":[
+    {
+      "enemyType": "boss",
+      "spawnerPosition":{
+        "x":-11,
+        "y":4,
+        "z":0
+      }
+    },
+    {
+      "enemyType": "boss",
+      "spawnerPosition":{
+        "x":11,
+        "y":4,
+        "z":0
+      }
+    },
+    {
+      "enemyType": "boss",
+      "spawnerPosition":{
+        "x":12,
+        "y":-2,
+        "z":0
+      }
+    },
+    {
+      "enemyType": "boss",
+      "spawnerPosition":{
+        "x":-12,
+        "y":-2,
+        "z":0
+      }
+    }
+    
+  ],
+  "LevelTimeData": {
+    "enemySpawnTimer" : 5, 
+    "enemySpeed" : 5}
+  
+}

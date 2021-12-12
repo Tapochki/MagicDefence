@@ -1,0 +1,95 @@
+{
+  "AllEnemy":[
+    {
+      "enemyType": "boss",
+      "spawnerPosition":{
+        "x":12,
+        "y":-2,
+        "z":0
+      }
+    },
+    {
+      "enemyType": "big",
+      "spawnerPosition":{
+        "x":-12,
+        "y":-2,
+        "z":0
+      }
+    },
+    {
+      "enemyType": "big",
+      "spawnerPosition":{
+        "x":12,
+        "y":-2,
+        "z":0
+      }
+    },
+    {
+      "enemyType": "medium",
+      "spawnerPosition":{
+        "x":-12,
+        "y":-2,
+        "z":0
+      }
+    },
+    {
+      "enemyType": "medium",
+      "spawnerPosition":{
+        "x":12,
+        "y":-2,
+        "z":0
+      }
+    },
+    {
+      "enemyType": "small",
+      "spawnerPosition":{
+        "x":-12,
+        "y":-2,
+        "z":0
+      }
+    },
+    {
+      "enemyType": "small",
+      "spawnerPosition":{
+        "x":12,
+        "y":-2,
+        "z":0
+      }
+    },
+    {
+      "enemyType": "medium",
+      "spawnerPosition":{
+        "x":-12,
+        "y":-2,
+        "z":0
+      }
+    },
+    {
+      "enemyType": "medium",
+      "spawnerPosition":{
+        "x":12,
+        "y":-2,
+        "z":0
+      }
+    },
+    {
+      "enemyType": "big",
+      "spawnerPosition":{
+        "x":-12,
+        "y":-2,
+        "z":0
+      }
+    },
+    {
+      "enemyType": "big",
+      "spawnerPosition":{
+        "x":12,
+        "y":-2,
+        "z":0
+      }
+    }
+  ],
+  "LevelTimeData": {
+    "enemySpawnTimer" : 4,
+    "enemySpeed" : 5}
+}
