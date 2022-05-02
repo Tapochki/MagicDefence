@@ -30,7 +30,7 @@
             : base()
         {
 #if UNITY_EDITOR
-            IsDebugMode = true;
+            IsDebugMode = false;
 #endif
             AddService<IGameManager>(new GameManager());
             AddService<ITimerManager>(new TimerManager());
