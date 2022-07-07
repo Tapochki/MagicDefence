@@ -123,9 +123,8 @@ namespace GrandDevs.AppName
                     {
                         _closetEnemy.DestroyColor(_elementToDestroyIndex);
                         
-                        if (_elementToDestroyIndex == _attackElements.Count - 1)
+                        if (_elementToDestroyIndex == _attackElements.Count)
                         {
-                            Debug.Log("StartDestroy");
                             _gameManager.EnemyController.EnemyDestroy(_closetEnemy);
                             mainPlayer.scoreNumber += _closetEnemy.scoreGive;
                             scoreChange?.Invoke(mainPlayer.scoreNumber);
@@ -138,9 +137,8 @@ namespace GrandDevs.AppName
                     {
                         _closetEnemy.DestroyColor(_elementToDestroyIndex);
                         _elementToDestroyIndex = _closetEnemy.lastElementIndex;
-                        if (_elementToDestroyIndex == _attackElements.Count - 1)
+                        if (_elementToDestroyIndex == _attackElements.Count)
                         {
-                            Debug.Log("StartDestroy");
                             mainPlayer.scoreNumber += _closetEnemy.scoreGive;
                             _gameManager.EnemyController.EnemyDestroy(_closetEnemy);
                             scoreChange?.Invoke(mainPlayer.scoreNumber);
